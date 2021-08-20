@@ -3,9 +3,14 @@
 session_start();
 
 $conn = mysqli_connect(
-	'localhost',
+	/*'localhost',
 	'root',
 	'',
+	'registro'
+*/
+	'sql532.main-hosting.eu',
+	'u511804920_erickdb',
+	'Erick123456',
 	'registro'
 	);
 	
